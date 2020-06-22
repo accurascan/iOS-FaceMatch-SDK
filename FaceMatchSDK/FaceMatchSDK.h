@@ -17,10 +17,10 @@ FOUNDATION_EXPORT const unsigned char FaceMatchSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <FaceMatchSDK/PublicHeader.h>
 #import <AudioToolbox/AudioToolbox.h>
 #import <MessageUI/MessageUI.h>
-#import <FaceMatchSDK/GlobalMethods.h>
-#import <FaceMatchSDK/EngineWrapper.h>
-#import <FaceMatchSDK/NSFaceRegion.h>
-#import <FaceMatchSDK/CustomAFNetWorking.h>
-#import <FaceMatchSDK/FaceView.h>
-#import <FaceMatchSDK/ImageHelper.h>
+#import "GlobalMethods.h"
+#import "EngineWrapper.h"
+#import "NSFaceRegion.h"
+#include "CustomAFNetWorking.h"
+#import "FaceView.h"
+#import "ImageHelper.h"
 
