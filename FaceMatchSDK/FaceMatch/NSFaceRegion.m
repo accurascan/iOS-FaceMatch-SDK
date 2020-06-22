@@ -1,7 +1,7 @@
 //
 //  NSFaceRegion.m
 
-#import "NSFaceRegion.h"
+#import <FaceMatchSDK/NSFaceRegion.h>
 
 @implementation NSFaceRegion
 @synthesize bound, feature, confidence, image, face;
