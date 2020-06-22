@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A90BF30C8FDCA5CBE27683A /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CCC4CCDAD6F0949A143D9B /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework */; };
+		A39CA988249E1A5B00AFAC8D /* model2.dat in Resources */ = {isa = PBXBuildFile; fileRef = A39CA985249E1A5B00AFAC8D /* model2.dat */; };
+		A39CA989249E1A5B00AFAC8D /* fdata.xml in Resources */ = {isa = PBXBuildFile; fileRef = A39CA986249E1A5B00AFAC8D /* fdata.xml */; };
+		A39CA98A249E1A5B00AFAC8D /* model1.dat in Resources */ = {isa = PBXBuildFile; fileRef = A39CA987249E1A5B00AFAC8D /* model1.dat */; };
+		A3D1C2BC24973A9300D3E84F /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D1C2BA24973A9300D3E84F /* FaceView.m */; };
+		A3D1C2BD24973A9300D3E84F /* FaceView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D1C2BB24973A9300D3E84F /* FaceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5341624972B03003F21BC /* FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D5340C24972B03003F21BC /* FaceMatchSDK.framework */; };
+		A3D5341B24972B03003F21BC /* FaceMatchSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D5341A24972B03003F21BC /* FaceMatchSDKTests.swift */; };
+		A3D5341D24972B03003F21BC /* FaceMatchSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5340F24972B03003F21BC /* FaceMatchSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5342F24972CE0003F21BC /* AccuraFace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D5342724972CE0003F21BC /* AccuraFace.a */; };
+		A3D5343124972CE0003F21BC /* CustomAFNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5342A24972CE0003F21BC /* CustomAFNetWorking.m */; };
+		A3D5343224972CE0003F21BC /* CustomAFNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5342B24972CE0003F21BC /* CustomAFNetWorking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5343324972CE0003F21BC /* GlobalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5342D24972CE0003F21BC /* GlobalMethods.m */; };
+		A3D5343424972CE0003F21BC /* GlobalMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5342E24972CE0003F21BC /* GlobalMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5344024972D0A003F21BC /* ImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5343624972D0A003F21BC /* ImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5344124972D0A003F21BC /* NSFaceRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5343724972D0A003F21BC /* NSFaceRegion.m */; };
+		A3D5344224972D0A003F21BC /* EngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3D5343824972D0A003F21BC /* EngineWrapper.mm */; };
+		A3D5344324972D0A003F21BC /* EngineWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5343924972D0A003F21BC /* EngineWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5344424972D0A003F21BC /* NSFaceRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5343A24972D0A003F21BC /* NSFaceRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5344524972D0A003F21BC /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5343B24972D0A003F21BC /* ImageHelper.m */; };
+		A3D5344C24972D87003F21BC /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5344A24972D87003F21BC /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5344D24972D87003F21BC /* faceengine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5344B24972D87003F21BC /* faceengine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA0DCE3C7B7215D96D58695A /* Pods_FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C49FA9AB6D0ED81BDF6B3B /* Pods_FaceMatchSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D5341724972B03003F21BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D5340324972B03003F21BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D5340B24972B03003F21BC;
+			remoteInfo = FaceMatchSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38189F9C722F72EEE6269807 /* Pods-FaceMatchSDK-FaceMatchSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK-FaceMatchSDKTests.release.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK-FaceMatchSDKTests/Pods-FaceMatchSDK-FaceMatchSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		55C49FA9AB6D0ED81BDF6B3B /* Pods_FaceMatchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceMatchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		913A74B53A3867C81F0E3788 /* Pods-FaceMatchSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK.debug.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK/Pods-FaceMatchSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9DAEECE99B7C18E3F7FADC4D /* Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK-FaceMatchSDKTests/Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F618B5ACE74A18C1D339F26 /* Pods-FaceMatchSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK.release.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK/Pods-FaceMatchSDK.release.xcconfig"; sourceTree = "<group>"; };
+		A39CA985249E1A5B00AFAC8D /* model2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = model2.dat; sourceTree = "<group>"; };
+		A39CA986249E1A5B00AFAC8D /* fdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fdata.xml; sourceTree = "<group>"; };
+		A39CA987249E1A5B00AFAC8D /* model1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model1.dat; sourceTree = "<group>"; };
+		A3D1C2BA24973A9300D3E84F /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		A3D1C2BB24973A9300D3E84F /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		A3D5340C24972B03003F21BC /* FaceMatchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FaceMatchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D5340F24972B03003F21BC /* FaceMatchSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceMatchSDK.h; sourceTree = "<group>"; };
+		A3D5341024972B03003F21BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D5341524972B03003F21BC /* FaceMatchSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMatchSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D5341A24972B03003F21BC /* FaceMatchSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMatchSDKTests.swift; sourceTree = "<group>"; };
+		A3D5341C24972B03003F21BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D5342724972CE0003F21BC /* AccuraFace.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AccuraFace.a; sourceTree = "<group>"; };
+		A3D5342A24972CE0003F21BC /* CustomAFNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAFNetWorking.m; sourceTree = "<group>"; };
+		A3D5342B24972CE0003F21BC /* CustomAFNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAFNetWorking.h; sourceTree = "<group>"; };
+		A3D5342D24972CE0003F21BC /* GlobalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalMethods.m; sourceTree = "<group>"; };
+		A3D5342E24972CE0003F21BC /* GlobalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalMethods.h; sourceTree = "<group>"; };
+		A3D5343624972D0A003F21BC /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		A3D5343724972D0A003F21BC /* NSFaceRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFaceRegion.m; sourceTree = "<group>"; };
+		A3D5343824972D0A003F21BC /* EngineWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EngineWrapper.mm; sourceTree = "<group>"; };
+		A3D5343924972D0A003F21BC /* EngineWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineWrapper.h; sourceTree = "<group>"; };
+		A3D5343A24972D0A003F21BC /* NSFaceRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFaceRegion.h; sourceTree = "<group>"; };
+		A3D5343B24972D0A003F21BC /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		A3D5344A24972D87003F21BC /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = GlobalMethods/types.h; sourceTree = "<group>"; };
+		A3D5344B24972D87003F21BC /* faceengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = faceengine.h; path = GlobalMethods/faceengine.h; sourceTree = "<group>"; };
+		F3CCC4CCDAD6F0949A143D9B /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceMatchSDK_FaceMatchSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D5340924972B03003F21BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0DCE3C7B7215D96D58695A /* Pods_FaceMatchSDK.framework in Frameworks */,
+				A3D5342F24972CE0003F21BC /* AccuraFace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D5341224972B03003F21BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D5341624972B03003F21BC /* FaceMatchSDK.framework in Frameworks */,
+				5A90BF30C8FDCA5CBE27683A /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F71F16FBFB7A9CBA46716D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				913A74B53A3867C81F0E3788 /* Pods-FaceMatchSDK.debug.xcconfig */,
+				9F618B5ACE74A18C1D339F26 /* Pods-FaceMatchSDK.release.xcconfig */,
+				9DAEECE99B7C18E3F7FADC4D /* Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig */,
+				38189F9C722F72EEE6269807 /* Pods-FaceMatchSDK-FaceMatchSDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3D5340224972B03003F21BC = {
+			isa = PBXGroup;
+			children = (
+				A3D5340E24972B03003F21BC /* FaceMatchSDK */,
+				A3D5341924972B03003F21BC /* FaceMatchSDKTests */,
+				A3D5340D24972B03003F21BC /* Products */,
+				75F71F16FBFB7A9CBA46716D /* Pods */,
+				D0B4B6FAB160C4E6D33FE194 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D5340D24972B03003F21BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5340C24972B03003F21BC /* FaceMatchSDK.framework */,
+				A3D5341524972B03003F21BC /* FaceMatchSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D5340E24972B03003F21BC /* FaceMatchSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5342824972CE0003F21BC /* CustomAfnetwork */,
+				A3D5342624972CE0003F21BC /* Framework */,
+				A3D5342C24972CE0003F21BC /* GlobalMethods */,
+				A3D5343524972D0A003F21BC /* FaceMatch */,
+				A3D5344B24972D87003F21BC /* faceengine.h */,
+				A3D5344A24972D87003F21BC /* types.h */,
+				A3D5340F24972B03003F21BC /* FaceMatchSDK.h */,
+				A3D5341024972B03003F21BC /* Info.plist */,
+			);
+			path = FaceMatchSDK;
+			sourceTree = "<group>";
+		};
+		A3D5341924972B03003F21BC /* FaceMatchSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5341A24972B03003F21BC /* FaceMatchSDKTests.swift */,
+				A3D5341C24972B03003F21BC /* Info.plist */,
+			);
+			path = FaceMatchSDKTests;
+			sourceTree = "<group>";
+		};
+		A3D5342624972CE0003F21BC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5342724972CE0003F21BC /* AccuraFace.a */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		A3D5342824972CE0003F21BC /* CustomAfnetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5342A24972CE0003F21BC /* CustomAFNetWorking.m */,
+				A3D5342B24972CE0003F21BC /* CustomAFNetWorking.h */,
+			);
+			path = CustomAfnetwork;
+			sourceTree = "<group>";
+		};
+		A3D5342C24972CE0003F21BC /* GlobalMethods */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5342D24972CE0003F21BC /* GlobalMethods.m */,
+				A3D5342E24972CE0003F21BC /* GlobalMethods.h */,
+			);
+			path = GlobalMethods;
+			sourceTree = "<group>";
+		};
+		A3D5343524972D0A003F21BC /* FaceMatch */ = {
+			isa = PBXGroup;
+			children = (
+				A39CA986249E1A5B00AFAC8D /* fdata.xml */,
+				A39CA987249E1A5B00AFAC8D /* model1.dat */,
+				A39CA985249E1A5B00AFAC8D /* model2.dat */,
+				A3D1C2BB24973A9300D3E84F /* FaceView.h */,
+				A3D1C2BA24973A9300D3E84F /* FaceView.m */,
+				A3D5343624972D0A003F21BC /* ImageHelper.h */,
+				A3D5343724972D0A003F21BC /* NSFaceRegion.m */,
+				A3D5343824972D0A003F21BC /* EngineWrapper.mm */,
+				A3D5343924972D0A003F21BC /* EngineWrapper.h */,
+				A3D5343A24972D0A003F21BC /* NSFaceRegion.h */,
+				A3D5343B24972D0A003F21BC /* ImageHelper.m */,
+			);
+			path = FaceMatch;
+			sourceTree = "<group>";
+		};
+		D0B4B6FAB160C4E6D33FE194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C49FA9AB6D0ED81BDF6B3B /* Pods_FaceMatchSDK.framework */,
+				F3CCC4CCDAD6F0949A143D9B /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3D5340724972B03003F21BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D5344424972D0A003F21BC /* NSFaceRegion.h in Headers */,
+				A3D5343224972CE0003F21BC /* CustomAFNetWorking.h in Headers */,
+				A3D5344C24972D87003F21BC /* types.h in Headers */,
+				A3D5344324972D0A003F21BC /* EngineWrapper.h in Headers */,
+				A3D5341D24972B03003F21BC /* FaceMatchSDK.h in Headers */,
+				A3D1C2BD24973A9300D3E84F /* FaceView.h in Headers */,
+				A3D5344024972D0A003F21BC /* ImageHelper.h in Headers */,
+				A3D5343424972CE0003F21BC /* GlobalMethods.h in Headers */,
+				A3D5344D24972D87003F21BC /* faceengine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3D5340B24972B03003F21BC /* FaceMatchSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D5342024972B03003F21BC /* Build configuration list for PBXNativeTarget "FaceMatchSDK" */;
+			buildPhases = (
+				54D5F0B9FB1877C1F6A6AC9E /* [CP] Check Pods Manifest.lock */,
+				A3D5340724972B03003F21BC /* Headers */,
+				A3D5340824972B03003F21BC /* Sources */,
+				A3D5340924972B03003F21BC /* Frameworks */,
+				A3D5340A24972B03003F21BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceMatchSDK;
+			productName = FaceMatchSDK;
+			productReference = A3D5340C24972B03003F21BC /* FaceMatchSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3D5341424972B03003F21BC /* FaceMatchSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D5342324972B03003F21BC /* Build configuration list for PBXNativeTarget "FaceMatchSDKTests" */;
+			buildPhases = (
+				BA78363051604AAF657F5608 /* [CP] Check Pods Manifest.lock */,
+				A3D5341124972B03003F21BC /* Sources */,
+				A3D5341224972B03003F21BC /* Frameworks */,
+				A3D5341324972B03003F21BC /* Resources */,
+				7AB1B96ED27CF43CF981D00B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D5341824972B03003F21BC /* PBXTargetDependency */,
+			);
+			name = FaceMatchSDKTests;
+			productName = FaceMatchSDKTests;
+			productReference = A3D5341524972B03003F21BC /* FaceMatchSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D5340324972B03003F21BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Technozer;
+				TargetAttributes = {
+					A3D5340B24972B03003F21BC = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					A3D5341424972B03003F21BC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A3D5340624972B03003F21BC /* Build configuration list for PBXProject "FaceMatchSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D5340224972B03003F21BC;
+			productRefGroup = A3D5340D24972B03003F21BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D5340B24972B03003F21BC /* FaceMatchSDK */,
+				A3D5341424972B03003F21BC /* FaceMatchSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D5340A24972B03003F21BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39CA989249E1A5B00AFAC8D /* fdata.xml in Resources */,
+				A39CA988249E1A5B00AFAC8D /* model2.dat in Resources */,
+				A39CA98A249E1A5B00AFAC8D /* model1.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D5341324972B03003F21BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54D5F0B9FB1877C1F6A6AC9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMatchSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB1B96ED27CF43CF981D00B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceMatchSDK-FaceMatchSDKTests/Pods-FaceMatchSDK-FaceMatchSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceMatchSDK-FaceMatchSDKTests/Pods-FaceMatchSDK-FaceMatchSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceMatchSDK-FaceMatchSDKTests/Pods-FaceMatchSDK-FaceMatchSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA78363051604AAF657F5608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMatchSDK-FaceMatchSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D5340824972B03003F21BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D5344124972D0A003F21BC /* NSFaceRegion.m in Sources */,
+				A3D5343124972CE0003F21BC /* CustomAFNetWorking.m in Sources */,
+				A3D5344524972D0A003F21BC /* ImageHelper.m in Sources */,
+				A3D5344224972D0A003F21BC /* EngineWrapper.mm in Sources */,
+				A3D1C2BC24973A9300D3E84F /* FaceView.m in Sources */,
+				A3D5343324972CE0003F21BC /* GlobalMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D5341124972B03003F21BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D5341B24972B03003F21BC /* FaceMatchSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D5341824972B03003F21BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D5340B24972B03003F21BC /* FaceMatchSDK */;
+			targetProxy = A3D5341724972B03003F21BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3D5341E24972B03003F21BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3D5341F24972B03003F21BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3D5342124972B03003F21BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A74B53A3867C81F0E3788 /* Pods-FaceMatchSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JA79VPTEAU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceMatchSDK",
+				);
+				INFOPLIST_FILE = FaceMatchSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceMatchSDK/Framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FaceMatchSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3D5342224972B03003F21BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F618B5ACE74A18C1D339F26 /* Pods-FaceMatchSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JA79VPTEAU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceMatchSDK",
+				);
+				INFOPLIST_FILE = FaceMatchSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceMatchSDK/Framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FaceMatchSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3D5342424972B03003F21BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAEECE99B7C18E3F7FADC4D /* Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMatchSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FaceMatchSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3D5342524972B03003F21BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38189F9C722F72EEE6269807 /* Pods-FaceMatchSDK-FaceMatchSDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMatchSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FaceMatchSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D5340624972B03003F21BC /* Build configuration list for PBXProject "FaceMatchSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D5341E24972B03003F21BC /* Debug */,
+				A3D5341F24972B03003F21BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D5342024972B03003F21BC /* Build configuration list for PBXNativeTarget "FaceMatchSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D5342124972B03003F21BC /* Debug */,
+				A3D5342224972B03003F21BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D5342324972B03003F21BC /* Build configuration list for PBXNativeTarget "FaceMatchSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D5342424972B03003F21BC /* Debug */,
+				A3D5342524972B03003F21BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D5340324972B03003F21BC /* Project object */;
+}
