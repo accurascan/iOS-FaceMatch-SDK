@@ -5,8 +5,6 @@
 
 
 #import "EngineWrapper.h"
-#import "ImageHelper.h"
-#import "NSFaceRegion.h"
 
 #import "types.h"
 #import "faceengine.h"

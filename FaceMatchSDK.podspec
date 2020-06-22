@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.static_framework = true
   spec.source       = { :git => "https://crdesai25@github.com/accurascan/iOS-FaceMatch-SDK.git", :tag => "1.0.0" }
-  spec.source_files  = "FaceMatchSDK/**/*"
+  spec.source_files  = "FaceMatchSDK/**/*.{h,m,mm,swift,xml,dat,a}"
   spec.dependency 'IQKeyboardManagerSwift'
   spec.dependency 'SVProgressHUD'
   spec.dependency 'Alamofire'

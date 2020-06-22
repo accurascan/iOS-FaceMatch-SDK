@@ -7,7 +7,6 @@
 //
 
 #import "FaceView.h"
-#import "NSFaceRegion.h"
 
 @implementation FaceView
 

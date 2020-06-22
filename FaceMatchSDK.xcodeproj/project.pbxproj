@@ -29,7 +29,7 @@
 		A3D5344524972D0A003F21BC /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5343B24972D0A003F21BC /* ImageHelper.m */; };
 		A3D5344C24972D87003F21BC /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5344A24972D87003F21BC /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3D5344D24972D87003F21BC /* faceengine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5344B24972D87003F21BC /* faceengine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA0DCE3C7B7215D96D58695A /* Pods_FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C49FA9AB6D0ED81BDF6B3B /* Pods_FaceMatchSDK.framework */; };
+		FA0DCE3C7B7215D96D58695A /* Pods_FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C49FA9AB6D0ED81BDF6B3B /* Pods_FaceMatchSDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
