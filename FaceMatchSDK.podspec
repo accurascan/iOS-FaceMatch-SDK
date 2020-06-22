@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A small framework to monitor face detection in Swift."
   spec.description  = "FaceMatchSDK is a small and lightweight Swift framework that allows to monitor and being notified for face detection in a super-easy way!"
   spec.homepage     = "https://accurascan.com"
-  spec.license      = { :file => 'LICENSE' }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "technozer" => "technozer02@gmail.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://crdesai25@github.com/accurascan/iOS-FaceMatch-SDK.git", :tag => "1.0.0" }
