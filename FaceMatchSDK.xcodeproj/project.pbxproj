@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A90BF30C8FDCA5CBE27683A /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CCC4CCDAD6F0949A143D9B /* Pods_FaceMatchSDK_FaceMatchSDKTests.framework */; };
+		A337204E24A0F75D009378BE /* FaceMatchSDK-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A337204D24A0F75D009378BE /* FaceMatchSDK-Bridging-Header.h */; };
 		A39CA988249E1A5B00AFAC8D /* model2.dat in Resources */ = {isa = PBXBuildFile; fileRef = A39CA985249E1A5B00AFAC8D /* model2.dat */; };
 		A39CA989249E1A5B00AFAC8D /* fdata.xml in Resources */ = {isa = PBXBuildFile; fileRef = A39CA986249E1A5B00AFAC8D /* fdata.xml */; };
 		A39CA98A249E1A5B00AFAC8D /* model1.dat in Resources */ = {isa = PBXBuildFile; fileRef = A39CA987249E1A5B00AFAC8D /* model1.dat */; };
@@ -48,6 +49,7 @@
 		913A74B53A3867C81F0E3788 /* Pods-FaceMatchSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK.debug.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK/Pods-FaceMatchSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		9DAEECE99B7C18E3F7FADC4D /* Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK-FaceMatchSDKTests/Pods-FaceMatchSDK-FaceMatchSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F618B5ACE74A18C1D339F26 /* Pods-FaceMatchSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMatchSDK.release.xcconfig"; path = "Target Support Files/Pods-FaceMatchSDK/Pods-FaceMatchSDK.release.xcconfig"; sourceTree = "<group>"; };
+		A337204D24A0F75D009378BE /* FaceMatchSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceMatchSDK-Bridging-Header.h"; sourceTree = "<group>"; };
 		A39CA985249E1A5B00AFAC8D /* model2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = model2.dat; sourceTree = "<group>"; };
 		A39CA986249E1A5B00AFAC8D /* fdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fdata.xml; sourceTree = "<group>"; };
 		A39CA987249E1A5B00AFAC8D /* model1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model1.dat; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		A3D5340224972B03003F21BC = {
 			isa = PBXGroup;
 			children = (
+				A337204D24A0F75D009378BE /* FaceMatchSDK-Bridging-Header.h */,
 				A3D5340E24972B03003F21BC /* FaceMatchSDK */,
 				A3D5341924972B03003F21BC /* FaceMatchSDKTests */,
 				A3D5340D24972B03003F21BC /* Products */,
@@ -215,6 +218,7 @@
 				A3D5344424972D0A003F21BC /* NSFaceRegion.h in Headers */,
 				A3D5343224972CE0003F21BC /* CustomAFNetWorking.h in Headers */,
 				A3D5344C24972D87003F21BC /* types.h in Headers */,
+				A337204E24A0F75D009378BE /* FaceMatchSDK-Bridging-Header.h in Headers */,
 				A3D5344324972D0A003F21BC /* EngineWrapper.h in Headers */,
 				A3D5341D24972B03003F21BC /* FaceMatchSDK.h in Headers */,
 				A3D1C2BD24973A9300D3E84F /* FaceView.h in Headers */,
@@ -478,7 +482,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceMatchSDK-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,7 +541,8 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceMatchSDK-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
