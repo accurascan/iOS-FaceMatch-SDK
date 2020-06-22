@@ -86,7 +86,7 @@ int g_nEngineInit = -100;
     
     NSFaceRegion* region = [[NSFaceRegion alloc] init];
     region.image = nil;
-    unsigned char* inbits = [ImageHelper bitmapFromImage:image];
+    unsigned char* inbits = [TSImageHelper bitmapFromImage:image];
     if (inbits == NULL)
     {
         NSLog(@"Image buffer is Null");
@@ -138,7 +138,7 @@ int g_nEngineInit = -100;
     
     NSFaceRegion* region = [[NSFaceRegion alloc] init];
     region.image = nil;
-    unsigned char* inbits = [ImageHelper bitmapFromImage:image];
+    unsigned char* inbits = [TSImageHelper bitmapFromImage:image];
     if (inbits == NULL)
     {
         NSLog(@"Image buf fer is Null");

@@ -18,7 +18,7 @@ CGContextRef CreateRGBBitmapContext (CGSize size);
 #define SUPPPORTS_UNDOCUMENTED_APIS	1
 
 
-@interface ImageHelper : NSObject 
+@interface TSImageHelper : NSObject
 // Create image
 + (UIImage *) imageFromView: (UIView *) theView;
 

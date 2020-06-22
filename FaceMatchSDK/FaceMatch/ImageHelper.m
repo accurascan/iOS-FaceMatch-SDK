@@ -116,7 +116,7 @@ void addRoundedRectToContext(CGContextRef context, CGRect rect, CGSize ovalSize)
 	CGContextRestoreGState(context);
 }
 
-@implementation ImageHelper
+@implementation TSImageHelper
 
 #pragma mark Create Image
 
@@ -315,7 +315,7 @@ void addRoundedRectToContext(CGContextRef context, CGRect rect, CGSize ovalSize)
 + (UIImage *) unrotateImage: (UIImage *) image
 {
 	if (image.imageOrientation == UIImageOrientationUp) return image;
-	return [ImageHelper doUnrotateImage:image];
+    return [TSImageHelper doUnrotateImage:image];
 }
 
 
@@ -324,7 +324,7 @@ void addRoundedRectToContext(CGContextRef context, CGRect rect, CGSize ovalSize)
 + (UIImage *) image: (UIImage *) image fitInSize: (CGSize) viewsize
 {
 	UIGraphicsBeginImageContext(viewsize);
-	[image drawInRect:[ImageHelper frameSize:image.size inSize:viewsize]];
+    [image drawInRect:[TSImageHelper frameSize:image.size inSize:viewsize]];
     UIImage *newimg = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();  
     return newimg;  
@@ -432,7 +432,7 @@ void addRoundedRectToContext(CGContextRef context, CGRect rect, CGSize ovalSize)
 
 + (UIImage *) roundedImage: (UIImage *) image withOvalSize: (CGSize) ovalSize
 {
-	return [ImageHelper roundedImage:image withOvalSize:ovalSize withInset: 0.0f];
+	return [TSImageHelper roundedImage:image withOvalSize:ovalSize withInset: 0.0f];
 }
 
 + (UIImage *) roundedBacksplashOfSize: (CGSize)size andColor:(UIColor *) color withRounding: (CGFloat) rounding andInset: (CGFloat) inset
