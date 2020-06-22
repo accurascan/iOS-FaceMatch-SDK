@@ -8,8 +8,8 @@
 #import "ImageHelper.h"
 #import "NSFaceRegion.h"
 
-#include "types.h"
-#include "faceengine.h"
+#import "types.h"
+#import "faceengine.h"
 
 int g_nEngineInit = -100;
 
