@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "technozer" => "technozer02@gmail.com" }
   spec.platform     = :ios, "9.0"
   spec.static_framework = true
-  spec.source       = { :git => "https://github.com/technozer01/AccuraFaceMatchSDK.git"}
+  spec.source       = { :git => "https://github.com/accurascan/iOS-FaceMatch-SDK.git", :tag => "1.0.0"}
   spec.preserve_paths = 'FaceMatchSDK.framework'
   spec.vendored_frameworks = 'FaceMatchSDK.framework'
   spec.requires_arc = true
