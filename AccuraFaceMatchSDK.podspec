@@ -2,11 +2,11 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AccuraFaceMatchSDK"
   spec.version      = "1.0.0"
-  spec.summary      = "A small framework to monitor face detection in Swift."
-  spec.description  = "FaceMatchSDK is a small and lightweight Swift framework that allows to monitor and being notified for face detection in a super-easy way!"
+  spec.summary      = "Recognize, compare and verify faces. Be certain that two images are of the same person."
+  spec.description  = "Accura Face Match is used for Matching 2 Faces. Source and Target. It matches the User Image from a Selfie vs User Image in document."
   spec.homepage     = "https://accurascan.com"
   spec.license      = "MIT"
-  spec.author       = { "technozer" => "technozer02@gmail.com" }
+  spec.author       = { "AccuraScan" => "connect@accurascan.com" }
   spec.platform     = :ios, "9.0"
   spec.static_framework = true
   spec.source       = { :git => "https://github.com/accurascan/iOS-FaceMatch-SDK.git", :tag => "1.0.0"}
