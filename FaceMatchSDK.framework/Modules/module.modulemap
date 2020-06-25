@@ -1,0 +1,6 @@
+framework module FaceMatchSDK {
+  umbrella header "FaceMatchSDK.h"
+
+  export *
+  module * { export * }
+}
