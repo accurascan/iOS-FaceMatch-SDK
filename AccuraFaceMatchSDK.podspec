@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'Alamofire'
   spec.dependency 'AFNetworking', '~> 3.0'
   spec.dependency 'SDWebImage', '~>3.7'
-
+  spec.dependency 'IQKeyboardManagerSwift'
 end
