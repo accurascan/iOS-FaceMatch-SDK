@@ -10,13 +10,12 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.static_framework = true
   spec.source       = { :git => "https://technozer01@github.com/accurascan/iOS-FaceMatch-SDK.git"}
-  spec.source_file = "FaceView.swift"
   spec.preserve_paths = 'FaceMatchSDK.framework'
   spec.vendored_frameworks = 'FaceMatchSDK.framework'
   spec.requires_arc = true
   spec.swift_version = "4.0"
   spec.exclude_files = "AccuraFaceMatchSDK/*/.{plist,png}"
-  spec.resources = ['model1.dat', 'model2.dat', 'fdata.xml']
+  spec.resources = ['model1.dat', 'model2.dat', 'fdata.xml', 'FaceView.swift']
   spec.dependency 'OpenCV', '3.4.2'
   spec.dependency 'SVProgressHUD'
   spec.dependency 'Alamofire'
