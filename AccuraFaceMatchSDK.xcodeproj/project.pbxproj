@@ -15,7 +15,6 @@
 		A3224B9D24A47AE600FA3B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3224B9B24A47AE600FA3B36 /* LaunchScreen.storyboard */; };
 		A3224BA524A47B4E00FA3B36 /* FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3224BA424A47B4E00FA3B36 /* FaceMatchSDK.framework */; };
 		A384903924A5E78D00ECB42D /* fdata.xml in Resources */ = {isa = PBXBuildFile; fileRef = A384903524A5E77400ECB42D /* fdata.xml */; };
-		A384903A24A5E78D00ECB42D /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384903624A5E77500ECB42D /* FaceView.swift */; };
 		A384903B24A5E78D00ECB42D /* model1.dat in Resources */ = {isa = PBXBuildFile; fileRef = A384903724A5E77500ECB42D /* model1.dat */; };
 		A384903C24A5E78D00ECB42D /* model2.dat in Resources */ = {isa = PBXBuildFile; fileRef = A384903824A5E78D00ECB42D /* model2.dat */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		A3224B9E24A47AE600FA3B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3224BA424A47B4E00FA3B36 /* FaceMatchSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceMatchSDK.framework; sourceTree = "<group>"; };
 		A384903524A5E77400ECB42D /* fdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fdata.xml; sourceTree = "<group>"; };
-		A384903624A5E77500ECB42D /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		A384903724A5E77500ECB42D /* model1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model1.dat; sourceTree = "<group>"; };
 		A384903824A5E78D00ECB42D /* model2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = model2.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				A3224BA424A47B4E00FA3B36 /* FaceMatchSDK.framework */,
-				A384903624A5E77500ECB42D /* FaceView.swift */,
 				A384903524A5E77400ECB42D /* fdata.xml */,
 				A384903724A5E77500ECB42D /* model1.dat */,
 				A384903824A5E78D00ECB42D /* model2.dat */,
@@ -160,7 +157,6 @@
 				A3224B9524A47AE400FA3B36 /* ViewController.swift in Sources */,
 				A3224B9124A47AE400FA3B36 /* AppDelegate.swift in Sources */,
 				A3224B9324A47AE400FA3B36 /* SceneDelegate.swift in Sources */,
-				A384903A24A5E78D00ECB42D /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

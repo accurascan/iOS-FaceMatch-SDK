@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AccuraFaceMatchSDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.4"
   spec.summary      = "Recognize, compare and verify faces. Be certain that two images are of the same person."
   spec.description  = "Accura Face Match is used for Matching 2 Faces. Source and Target. It matches the User Image from a Selfie vs User Image in document."
   spec.homepage     = "https://accurascan.com"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "AccuraScan" => "connect@accurascan.com" }
   spec.platform     = :ios, "9.0"
   spec.static_framework = true
-  spec.source       = { :git => "https://technozer01@github.com/accurascan/iOS-FaceMatch-SDK.git", :tag => "1.0.2"}
+  spec.source       = { :git => "https://technozer01@github.com/accurascan/iOS-FaceMatch-SDK.git", :tag => "1.0.4"}
   spec.preserve_paths = 'FaceMatchSDK.framework'
   spec.vendored_frameworks = 'FaceMatchSDK.framework'
   spec.requires_arc = true
