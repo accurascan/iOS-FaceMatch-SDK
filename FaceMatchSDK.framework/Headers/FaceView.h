@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NSFaceRegion.h"
+#import <FaceMatchSDK/NSFaceRegion.h>
 
 @interface FaceView : UIView {
     UIImage*    faceImage;

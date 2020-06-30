@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/EngineWrapper.h</key>
 		<data>
-		Bk2+E290yQ5Y6KfQ3WKaRihdLho=
+		EKmM5bgfF8EbU2eDNpDstDnyqPM=
 		</data>
 		<key>Headers/FaceMatchSDK.h</key>
 		<data>
-		STpn9fZtvrLdPDWWrqoj1s/iSzw=
+		wcDAlYpmdEZnsx8hxwBMvjwzU64=
 		</data>
 		<key>Headers/FaceView.h</key>
 		<data>
-		5c6N2nGb+dxPeMQKXtm1Tf0eW2o=
+		J0M8dVzXfd/ZopxToQuhL/93fuI=
 		</data>
 		<key>Headers/GlobalMethods.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/ImageHelper.h</key>
 		<data>
-		U8Z0kb8sQpwngTzpUe7CTTU3xCk=
+		P/CBPUDQG6fM4OEo4esUbx9IRVg=
 		</data>
 		<key>Headers/NSFaceRegion.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L71JlTHt2iLpDSjRpua0JqiUuaw=
+		wRmtjR5jNXJULsxR4KkwOZA22Mc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,33 +78,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bk2+E290yQ5Y6KfQ3WKaRihdLho=
+			EKmM5bgfF8EbU2eDNpDstDnyqPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SZBfs7AytueuacwyWtL6vE0agChcg8hjAmPPeEjVSDE=
+			C2wM7M0xe4v5VTy5p4vca0esgPMeMMTLLADf8sp4M9o=
 			</data>
 		</dict>
 		<key>Headers/FaceMatchSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			STpn9fZtvrLdPDWWrqoj1s/iSzw=
+			wcDAlYpmdEZnsx8hxwBMvjwzU64=
 			</data>
 			<key>hash2</key>
 			<data>
-			t5KnvrBu5z6WeW9Qjz1PVEgDudJgB20hAL8eoNeNyjY=
+			BY2CJcT7Ey07k4pnP3Siz1FP98684JC1w6PoqOgGnPk=
 			</data>
 		</dict>
 		<key>Headers/FaceView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5c6N2nGb+dxPeMQKXtm1Tf0eW2o=
+			J0M8dVzXfd/ZopxToQuhL/93fuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4l+YEvn1F3Qd6HdMP47cJ65rACKTJcl8OqLaYsUMtJ4=
+			eaWO6U8qTQ4wI1GhleITKJPQ2Kia4TF+i9utDKxUAI8=
 			</data>
 		</dict>
 		<key>Headers/GlobalMethods.h</key>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U8Z0kb8sQpwngTzpUe7CTTU3xCk=
+			P/CBPUDQG6fM4OEo4esUbx9IRVg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BpV4n1aJSpiGkkKZx9D9Jp0m/rdyPzvwmVt0Nd/nBtc=
+			jNf760bgFh3JDJ2EGgdxS3n4DWJHEX3UGfPly2ezkSQ=
 			</data>
 		</dict>
 		<key>Headers/NSFaceRegion.h</key>

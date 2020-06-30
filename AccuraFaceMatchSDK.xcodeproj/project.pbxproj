@@ -13,7 +13,7 @@
 		A3224B9824A47AE400FA3B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3224B9624A47AE400FA3B36 /* Main.storyboard */; };
 		A3224B9A24A47AE600FA3B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3224B9924A47AE600FA3B36 /* Assets.xcassets */; };
 		A3224B9D24A47AE600FA3B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3224B9B24A47AE600FA3B36 /* LaunchScreen.storyboard */; };
-		A3224BA524A47B4E00FA3B36 /* FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3224BA424A47B4E00FA3B36 /* FaceMatchSDK.framework */; };
+		A33412E124AB431200CECDCB /* FaceMatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33412E024AB431200CECDCB /* FaceMatchSDK.framework */; };
 		A384903924A5E78D00ECB42D /* fdata.xml in Resources */ = {isa = PBXBuildFile; fileRef = A384903524A5E77400ECB42D /* fdata.xml */; };
 		A384903B24A5E78D00ECB42D /* model1.dat in Resources */ = {isa = PBXBuildFile; fileRef = A384903724A5E77500ECB42D /* model1.dat */; };
 		A384903C24A5E78D00ECB42D /* model2.dat in Resources */ = {isa = PBXBuildFile; fileRef = A384903824A5E78D00ECB42D /* model2.dat */; };
@@ -28,7 +28,7 @@
 		A3224B9924A47AE600FA3B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3224B9C24A47AE600FA3B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3224B9E24A47AE600FA3B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3224BA424A47B4E00FA3B36 /* FaceMatchSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceMatchSDK.framework; sourceTree = "<group>"; };
+		A33412E024AB431200CECDCB /* FaceMatchSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceMatchSDK.framework; sourceTree = "<group>"; };
 		A384903524A5E77400ECB42D /* fdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fdata.xml; sourceTree = "<group>"; };
 		A384903724A5E77500ECB42D /* model1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model1.dat; sourceTree = "<group>"; };
 		A384903824A5E78D00ECB42D /* model2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = model2.dat; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3224BA524A47B4E00FA3B36 /* FaceMatchSDK.framework in Frameworks */,
+				A33412E124AB431200CECDCB /* FaceMatchSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,7 @@
 		A3224B8424A47AE400FA3B36 = {
 			isa = PBXGroup;
 			children = (
-				A3224BA424A47B4E00FA3B36 /* FaceMatchSDK.framework */,
+				A33412E024AB431200CECDCB /* FaceMatchSDK.framework */,
 				A384903524A5E77400ECB42D /* fdata.xml */,
 				A384903724A5E77500ECB42D /* model1.dat */,
 				A384903824A5E78D00ECB42D /* model2.dat */,

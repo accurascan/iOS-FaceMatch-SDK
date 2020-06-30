@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "ImageHelper.h"
+#import <FaceMatchSDK/NSFaceRegion.h>
 
 @class NSFaceRegion;
 
