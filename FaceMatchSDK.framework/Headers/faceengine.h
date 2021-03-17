@@ -2,6 +2,8 @@
 #define FACEENGINE_H
 
 #include "types.h"
+#include "opencv2/imgproc.hpp"
+#include <opencv2/imgproc/imgproc.hpp>
 
 //.initialize SDK,
 SResult InitEngine(const char* file1, const char* file2, const char* license);
@@ -17,5 +19,6 @@ SResult Identify(int nSize1, float* pFeature1, int nSize2, float* pFeature2, flo
 
 //. Delete all template.
 SResult DeleteAllTemplate();
+int checklivenessValidation(cv::Mat mat,int faceblur,int glaremin,int glaremax,int light);
 
 #endif // FACEENGINE_H

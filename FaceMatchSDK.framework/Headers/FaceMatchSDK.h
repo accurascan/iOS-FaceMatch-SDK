@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char FaceMatchSDKVersionString[];
 #import "GlobalMethods.h"
 #import "EngineWrapper.h"
 #import "NSFaceRegion.h"
-#import "CustomAFNetWorking.h"
 #import "FaceView.h"
 #import "ImageHelper.h"
+#import "NSObject+Facematch.h"
 
